@@ -281,21 +281,3 @@ form .btn2{
 
 
 
-/* creating a button that when you click on will take you back to the top of the screen */
-.totop{
-    background-color: #ff004f;
-    padding: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 50px;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    /* z-index: 4; */
-}
-
-.totop.false {
-    opacity: 1;
-}
